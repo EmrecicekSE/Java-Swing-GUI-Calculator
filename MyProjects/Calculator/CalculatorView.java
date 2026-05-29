@@ -114,25 +114,22 @@ public class CalculatorView extends JFrame{
         panel.setLayout(new GridLayout(6,3,10,10));
         
 
-       // Arka plan (Panel rengi): Koyu, mat ve soft bir lacivert
+       
     colorOfPanel(new Color(0,0,0));
 
-// Rakamlar: Arka plandan biraz daha açık, soft lacivert-gri tonu ve beyaz yazı
+
     colorOfNumberButtons(new Color(20,30,60), Color.WHITE);
 
-// Operatörler (+, -, X, /): Göze batmayan ama kendini belli eden pastel turkuaz/mavi
+
     colorOfOperatorButtons(new Color(25, 70, 100), Color.WHITE);
 
-// Temizleme (C) ve Geri (<-) Butonları: Soft bir mercan/kırmızı tonu
+
     colorOfClearButton(new Color(57, 83, 79), Color.WHITE);
 
     colorOfBackButton(new Color(150, 83, 79), Color.WHITE);
 
     colorOfEqualButton(new Color(0, 70, 26), Color.WHITE);
 
-// Ekran (TextField) Ayarları: Panel rengiyle bütünleşen koyu lacivert arka plan ve beyaz yazı
-    //textField.setBackground(new Color(20, 30, 48));
-    //textField.setForeground(Color.WHITE);
 
       colorOfTextField(new Color(30, 40, 42),Color.WHITE); 
         
